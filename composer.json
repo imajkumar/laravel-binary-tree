@@ -17,11 +17,8 @@
    
   },
   "require-dev": {
-    "phpunit/phpunit": "5.8.*",
-    "mockery/mockery": "^0.9",
-    "d11wtq/boris": "^1.0.10",
-    "satooshi/php-coveralls": "^2.0",
-    "fabpot/php-cs-fixer": "^1.11"
+    "phpunit/phpunit": "5.8.*"
+    
   },
   "autoload": {
     "psr-0": {
