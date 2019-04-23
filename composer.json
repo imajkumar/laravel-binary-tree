@@ -1,0 +1,35 @@
+{
+  "name": "imajkumar/laravel-binary-tree",
+  "type": "library",
+  "description": "Ayra is an implementation of the Nested Set pattern for Eloquent models.",
+  "keywords": ["nested set", "laravel", "laravel 5.8", "eloquent", "database"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ajay Kumar",
+      "email": "ajay.kumar@softcom.net",
+      "homepage": ""
+    }   
+
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/console": "5.2.0 - 5.4.36",
+    "illuminate/database": "5.2.0 - 5.4.36",
+    "illuminate/events": "5.2.0 - 5.4.36",
+    "illuminate/filesystem": "5.2.0 - 5.4.36",
+    "illuminate/support": "5.2.0 - 5.4.36"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*",
+    "mockery/mockery": "^0.9",
+    "d11wtq/boris": "^1.0.10",
+    "satooshi/php-coveralls": "^2.0",
+    "fabpot/php-cs-fixer": "^1.11"
+  },
+  "autoload": {
+    "psr-0": {
+      "Ayra": "src/"
+    }
+  }
+}
